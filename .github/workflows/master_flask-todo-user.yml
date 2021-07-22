@@ -45,7 +45,7 @@ jobs:
     needs: build
     environment:
       name: 'production'
-      url: 'https://flask-todo-user.azurewebsites.net'
+      url: 'https://mytodo-1.azurewebsites.net'
 
     steps:
       - name: Download artifact from build job
